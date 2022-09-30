@@ -16,6 +16,7 @@ Use the Branch SDK (branch.io) to create and power the links that point back to 
   spec.author             = { "BranchNativeCompute" => "native-compute@branch.io" }
   spec.platform           = :ios, '9.0'
   spec.ios.deployment_target = '9.0'
-  spec.source            = { :http => 'https://github.com/BranchMetrics/nativesdk-podspec/releases/download/v0.0.9/NativeComputeSDK.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/BranchMetrics/nativesdk-podspec/releases/download/v0.0.9/NativeComputeSDK.xcframework.zip',
+			     :sha256 => '4ef4e5fb2fc7634181d37af120df5dd8d4eb1310146489987fa4acd298968346' }
   spec.ios.vendored_frameworks = 'NativeComputeSDK.xcframework'
 end
